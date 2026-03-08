@@ -6,12 +6,14 @@ import Home2 from "./Home2";
 import Type from "./Type";
 // import Techstack from "../About/Techstack";
 // import Github from "../About/Github";
+
 import {
   AiFillGithub,
   // AiOutlineTwitter,
   // AiFillInstagram,
+
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaPhoneAlt, FaEnvelope} from "react-icons/fa";
 
 function Home() {
   return (
@@ -35,8 +37,28 @@ function Home() {
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
+
+                
               </div>
+
+              <div className="contact-info">
+                <p>
+                  <FaEnvelope className="contact-icon" /> <span></span>
+                  <strong>Email:</strong>
+                  <a href="mailto:saikiran944155@gmail.com" className="contact-link">
+                    saikiran944155@gmail.com
+                  </a>
+                </p>
+
+                <p>
+                  <FaPhoneAlt className="contact-icon" /> <span></span>
+                  <strong>Phone:</strong> +91 7815908218
+                </p>
+              </div>
+
+                            
             </Col>
+
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
@@ -87,6 +109,27 @@ function Home() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+
+              <li className="social-icons">
+                <a
+                  href="mailto:saikiran944155@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaEnvelope />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="tel:+917815908218"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaPhoneAlt />
                 </a>
               </li>
               {/* <li className="social-icons">

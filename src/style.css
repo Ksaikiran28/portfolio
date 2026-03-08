@@ -403,6 +403,28 @@ button:focus {
   color: #700c86 !important;
 }
 
+
+.contact-info {
+  margin-top: 20px;
+  padding-left: 50px;
+  font-size: 18px;
+  color: white;
+}
+
+.contact-info p {
+  margin: 6px 0;
+}
+
+.contact-link {
+  color: #cd5ff8;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.contact-link:hover {
+  color: #e89cff;
+  text-decoration: underline;
+}
 /* --------- */
 /* Footer */
 /* --------- */
